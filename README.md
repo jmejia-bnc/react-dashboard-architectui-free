@@ -1,41 +1,50 @@
-# [ArchitectUI React Dashboard](https://admin-dashboards.com/react-dashboard-architectui-free)
+# ArchitectUI Bootstrap 4 ReactJS Theme FREE
 
-ArchitectUI React Dashboard template is a free, open-source admin panel coded in React. It comes packed with a set of beautiful elements and components that can offer you a head start in developing your web application. It has a fully responsive layout, multiple color schemes for both Bootstrap elements and layout components. ArchitectUI React is powered by Bootstrap 4, Webpack and it uses create-react-app from Facebook Dev.
+ArchitectUI ReactJS is a free admin dashboard template based on Bootstrap and React frontend framework. It is easy to install, customiza and use. We have this template available in [Vue](https://dashboardpack.com/theme-details/architectui-dashboard-vue-pro/), [jQuery/HTML](https://dashboardpack.com/theme-details/architectui-dashboard-html-pro), [Angular](https://dashboardpack.com/theme-details/architectui-angular-7-bootstrap-material-design-pro?v=7516fd43adaa) and other version. For more awesome admin panels please check DashboardPack.com
 
-<br />
+### Made with love by DashboardPack.com
 
-![ArchitectUI React Dashboard - Open-Source React Admin Panel.](https://raw.githubusercontent.com/admin-dashboards/static/master/bootstrap-dashboard-architectui-intro.gif)
+## PRO Version Available [here](https://dashboardpack.com/theme-details/architectui-dashboard-react-pro)
 
-<br />
+## ArchitectUI ReactJS Preview
 
-## Build from sources
+![ArchitectUI Bootstrap 4 ReactJS Theme FREE](https://colorlib.com/wp/wp-content/uploads/sites/2/architectui-react-free.jpg)
 
-```
-$ git clone https://github.com/DashboardPack/architectui-react-theme-free.git
-$ cd architectui-react-theme-free
-$ yarn # install modules
-$ yarn start # start in development mode
-$ yarn build # build for production
+### Installation
+Download and uncompress the theme package archive in your desired folder location.
 
-```
+Download and install Node.js from [nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-<br />
+Install the latest version of npm. This will be useful when running all the build commands. Run the following in a command line, either your IDE's Terminal window or in a Windows Command Prompt.
 
-## React Dashboard Links
+                                                            
+    npm install --global npm@latest
+                                                            
+                                                        
+Install the app dependencies by running the following command in the command line inside the folder root where you have unzipped the theme package archive.
 
-- [ArchitectUI React](https://dashboardpack.com/theme-details/architectui-react-dashboard-free/) - product page
-- [ArchitectUI React](https://demo.dashboardpack.com/architectui-react-free/#/dashboards/basic) - Live DEMO
-- [ArchitectUI React](https://github.com/DashboardPack/architectui-react-theme-free) - the dashboard source code
 
-<br />
+    npm install
+                                                        
+After npm finishes installing the modules from package.json you can go ahead and start the application. To do so, run the command below.
 
-### Related Articles
+You can also use yarn to install dependencies instead of npm.
 
-- [Open-Source Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - provided by **AppSeed**
-- [Admin Dashboards](https://dev.to/sm0ke/admin-dashboards-open-source-and-free-4aep) - Open-Source and Free, article published on Dev.to
-- [Vue Dashboard](https://dev.to/sm0ke/vue-dashboard-open-source-apps-1gd1) - Open-Source and Free
-- [React Dashboards - Open-Source and Free](https://dev.to/sm0ke/react-dashboards-open-source-apps-1c7j)
-- [Admin Dashboards](https://blog.appseed.us/admin-dashboards-open-source-built-with-automation-tools/) - Open-Source and built with automation tools
 
----
-[ArchitectUI React Dashboard](https://admin-dashboards.com/react-dashboard-architectui-free) - provided by **Admin-Dashboards.com**
+    npm run start
+                                                        
+After the comand finished, you should see a Compiled successfully! message in your terminal window. Also, a web server service will be started so you can view your app in the browser: http://localhost:3000
+
+### Production Build
+
+To create a production optimised build run the command below:
+
+
+    npm run build
+                                                        
+This created another folder in the root of your project named build. You'll have an option to start a local web server to view your newly created production build.
+
+
+    serve -s build -l 4000
+                                                        
+This will start a local web server on port 4000, on which the production folder (/build/) will be available in your browser.
